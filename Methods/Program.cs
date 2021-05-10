@@ -24,7 +24,7 @@ namespace Metotlar_1
 
             Urun[] urunler = new Urun[] { urun1, urun2 };
 
-            // type-safe -- tip güvenli
+            // type-safe
             foreach (var urun in urunler)
             {
 
@@ -38,7 +38,7 @@ namespace Metotlar_1
 
             Console.WriteLine("-------------Methodlar----------");
 
-            //instance - örnek
+            //instance
             //encapsulation
 
             SepetManager sepetManager = new SepetManager();
